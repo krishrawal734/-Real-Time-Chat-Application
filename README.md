@@ -1,73 +1,165 @@
-# Welcome to your Lovable project
+# 💬 Real-Time Chat Application
+<img width="1920" height="945" alt="screencapture-real-time-chat-application-delta-wheat-vercel-app-2026-04-08-17_46_41" src="https://github.com/user-attachments/assets/dcd3ebc6-a500-4a8e-b6c7-5e0699f685cb" />
+<img width="1920" height="945" alt="screencapture-real-time-chat-application-delta-wheat-vercel-app-chat-2026-04-08-17_47_33" src="https://github.com/user-attachments/assets/fef51ae5-1d4e-418b-af60-8d7f90073f3b" />
 
-## Project info
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+A modern **Real-Time Chat Application** built with React + Vite that allows users to communicate instantly with features like authentication, live messaging, and online presence.
 
-## How can I edit this code?
+🌐 **Live Demo:** https://real-time-chat-application-delta-wheat.vercel.app/
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🚀 Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+* 🔐 User Authentication (Login / Signup)
+* 💬 Real-time messaging
+* 🟢 Online / Offline status
+* ✍️ Typing indicator
+* 📜 Message history
+* 👤 User profiles
+* ⚡ Fast and responsive UI
 
-Changes made via Lovable will be committed automatically to this repo.
+Real-time chat systems enable **instant communication and collaboration**, making them widely used in modern apps. ([IJRASET][1])
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🛠️ Tech Stack
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Frontend:
 
-Follow these steps:
+* React JS (Vite)
+* Tailwind CSS
+* React Router DOM
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Backend (if used):
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+* Firebase / Node.js + Express
+* Socket.IO (for real-time communication)
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Database:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+* Firebase Firestore / MongoDB
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+ ┣ components/
+ ┃ ┣ Sidebar.jsx
+ ┃ ┣ ChatBox.jsx
+ ┃ ┣ Message.jsx
+ ┃ ┗ Navbar.jsx
+ ┣ pages/
+ ┃ ┣ Login.jsx
+ ┃ ┣ Signup.jsx
+ ┃ ┗ Chat.jsx
+ ┣ firebase/
+ ┃ ┗ config.js
+ ┣ App.jsx
+ ┗ main.jsx
+```
+
+---
+
+## ⚙️ Installation & Setup
+
+1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/your-username/chat-app.git
+cd chat-app
+```
+
+2️⃣ Install dependencies
+
+```bash
+npm install
+```
+
+3️⃣ Run the project
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🔑 Environment Variables
 
-**Use GitHub Codespaces**
+Create a `.env` file:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```
+VITE_API_KEY=your_api_key
+VITE_AUTH_DOMAIN=your_project
+VITE_PROJECT_ID=your_project_id
+```
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 🧠 How It Works
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+* Users sign up or log in
+* Messages are sent and stored in the database
+* Real-time updates are handled using WebSockets / Firebase listeners
+* UI updates instantly without refreshing
 
-## How can I deploy this project?
+Modern chat apps use technologies like **WebSockets or Firebase** to enable instant updates and user presence tracking. ([v0][2])
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 🎨 UI Highlights
 
-Yes, you can!
+* Clean WhatsApp-like layout
+* Responsive design (mobile + desktop)
+* Smooth animations
+* Chat bubbles with timestamps
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 🚀 Future Improvements
+
+* 📎 File sharing (images, videos)
+* 🔔 Push notifications
+* 👥 Group chat
+* ✔️ Message read receipts
+* 🎥 Video / voice calling
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork this repo and submit a pull request.
+
+---
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+## ⭐ Support
+
+If you like this project:
+
+* ⭐ Star the repo
+* 🍴 Fork it
+* 📢 Share it
+
+---
+
+## 👨‍💻 Author
+
+Developed by **Krish Rawal**
+
+---
+
+🔥 This project demonstrates real-world skills like **real-time communication, authentication, and scalable frontend architecture**.
+
+[1]: https://www.ijraset.com/best-journal/real-time-chat-application-using-react-and-firebase?utm_source=chatgpt.com "IJRASET
+International Journal For Research in
+Appl"
+[2]: https://v0.app/chat/real-time-chat-application-kal8w3nt41u?utm_source=chatgpt.com "Real-time chat application - v0 by Vercel"
